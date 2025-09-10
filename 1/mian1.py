@@ -13,4 +13,4 @@ all_data = soup.find_all("span", attrs={"class": "news_title"})
 for data in all_data:
     link = data.find("a")
     print(link.string)
-    print(link["href"])
+
